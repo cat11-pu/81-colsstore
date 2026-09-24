@@ -1,0 +1,15 @@
+{
+  "scan_invariant": true,
+  "scan": {"column": "status", "value": "ok"},
+  "project": ["status", "region"],
+  "rows": [
+    {"status": "ok", "region": "cn-north-1", "id": "i1"},
+    {"status": "ok", "region": "cn-north-1", "id": "i2"},
+    {"status": "ok", "region": "cn-north-1", "id": "i3"},
+    {"status": "ok", "region": "cn-north-1", "id": "i4"},
+    {"status": "ok", "region": "us-west-2", "id": "i5"},
+    {"status": "failed-connection-timeout", "region": "us-west-2", "id": "i6"},
+    {"status": "failed-connection-timeout", "region": "us-west-2", "id": "i7"},
+    {"status": "failed-connection-timeout", "region": "us-west-2", "id": "i8"}
+  ]
+}
